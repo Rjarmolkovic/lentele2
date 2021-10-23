@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: calibri;
+
+}
+h1 {
+  color:black;
+  display: flex;
+  justify-content: center;
+}
+table {
+  background: #3E215D;
+  border: 3px solid yellow;
+  border-collapse: collapse;
+  margin: auto;
+
+}
+td {
+  border: 1px solid #FFB344;
+  padding: 20px;
+  height: 30px;
+  width: 200px;
+  text-align: left;
+  font-family:bold;
+}
+
+th{
+  border: 1px solid #FFB344;
+  padding: 20px;
+  height: 30px;
+  width: 200px;
+  text-align: left;
+  font-family:bold;
+
+}
+.name {
+  background: #FFB344;
+  font-weight:bold;
+  color: black;
+  font-family:verdana;
+  text-align:center;
+  border: 1px solid #FFB344;
+  padding: 20px;
+  height: 30px;
+  width: 200px;
+}
+.lastname{
+  background: #FFAA4C;
+  font-weight:bold;
+  color: black;
+  font-family:verdana;
+  text-align:center;
+  border: 1px solid #FFB344;
+  padding: 20px;
+  height: 30px;
+  width: 200px;
+}
+.age{
+  background: #FFB344;
+  font-weight:bold;
+  color: black;
+  font-family:verdana;
+  text-align:center;
+  border: 1px solid #FFB344;
+  padding: 20px;
+  height: 30px;
+  width: 200px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin: 10px 30px 5px 15px;
+  width: 150px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  margin: 10px 30px 5px 15px;
+  width: 150px;
+  height: 20px;
+}
